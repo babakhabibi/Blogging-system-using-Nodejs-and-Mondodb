@@ -1,0 +1,20 @@
+{
+  "name": "booking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "make test",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.13",
+    "pug": "^2.0.3"
+  },
+  "content_security_policy": "default-src 'self' style-src 'self' 'unsafe-inline';"
+}
